@@ -2,6 +2,8 @@
 
 This repository contains sample code based on the article [Implementing AI in Software Testing: Creating a Text Generation Model for Test Automation](https://drlee.io/implementing-ai-in-software-testing-creating-a-text-generation-model-for-test-automation-7294b26f93c4).
 
+Please note to use this tool you need to pay for using ChatGPT API
+
 ## Adding Your OpenAI API Key as a Secret
 
 To use this tool, you'll need to add your OpenAI API Key as a secret in your GitHub repository. Follow these steps:
@@ -23,3 +25,6 @@ To deploy the Streamlit app, follow these steps:
 5. Write `app.py` in the "Path to a Streamlit app" field.
 6. In the “Advanced settings,” input your secret key (OPENAI_API_KEY) into the "Environment variables" section.
 7. Click “Deploy” to deploy your app. Streamlit will automatically install the dependencies listed in your `requirements.txt` file and deploy your app.
+
+## Final app screen
+![Screenshot 2024-02-27 at 13 26 52](https://github.com/mariiakhairi/streamlit-test-case-generator/assets/53401909/ce5d3013-00e0-41a0-8536-2ea2918d1811)
