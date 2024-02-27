@@ -11,7 +11,7 @@ openai.api_key = OPENAI_API_KEY
 # Define the function to generate test cases
 def generate_test_cases(requirement):
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo-0125",
         messages=[
             {"role": "system", "content": "You are a helpful assistant capable of generating software test cases."},
             {"role": "user", "content": requirement}
