@@ -35,7 +35,7 @@ if st.button('Generate Test Cases'):
             try:
                 test_cases = generate_test_cases(requirement)
                 st.success('Generated Test Cases')
-                st.write(test_cases)
+                st.write(generate_test_cases)
             except Exception as e:
                 st.error('An error occurred while generating test cases.')
                 st.error(e)
