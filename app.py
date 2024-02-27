@@ -10,7 +10,7 @@ openai.api_key = OPENAI_API_KEY
 
 # Define the function to generate test cases
 def generate_test_cases(requirement):
-    response = client.chat.completions.create(
+    response = openai.chat.completions.create(
     messages=[
         {
             "role": "user",
@@ -19,8 +19,8 @@ def generate_test_cases(requirement):
     ],
     model="gpt-3.5-turbo",
    )
-     return response.choices[0].message.content
-
+    return response.choices[0].message.content
+    
 # Streamlit app layout
 st.title('AI-powered Test Case Generator')
 st.write('Enter your software requirement to generate test cases.')
