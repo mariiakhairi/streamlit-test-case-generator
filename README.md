@@ -16,7 +16,7 @@ To use this tool, you'll need to add your OpenAI API Key as a secret in your Git
 
 To deploy the Streamlit app, follow these steps:
 
-1. Create a [share.streamlit.com](https://share.streamlit.com) account and sign up using your GitHub account.
+1. Create a [streamlit](https://streamlit.io/) account and sign up using your GitHub account.
 2. Once logged into Streamlit, click on “New app.”
 3. Select the GitHub repository you created earlier.
 4. Choose the branch where your files are located (usually main or master).
