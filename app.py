@@ -18,8 +18,8 @@ def generate_test_cases(requirement):
         }
     ],
     model="gpt-3.5-turbo",
-    return response.choices[0].message.content
-)
+   )
+     return response.choices[0].message.content
 
 # Streamlit app layout
 st.title('AI-powered Test Case Generator')
